@@ -42,12 +42,10 @@ def print_array(array, message=""):
 
 
 def main():
-    # 1. Array Creation and Saving
     array = create_array((10, 10))
     print_array(array, "Create array:")
     save_array(array, "array")
 
-    # 2. Loading and Verification
     loaded_txt, loaded_csv, loaded_npy = load_array("array")
     print_array(loaded_txt, "Loaded Array from TXT file:")
     print_array(loaded_csv, "Loaded Array from CSV file:")
@@ -70,6 +68,5 @@ def main():
     print_array(std(array, axis=0), "STD by Columns:")
 
 
-# Execute the script
 if __name__ == "__main__":
     main()
