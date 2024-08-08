@@ -1,0 +1,1 @@
+print("Nothing difficult, but I got tired halfway through the task because it is very boring")
